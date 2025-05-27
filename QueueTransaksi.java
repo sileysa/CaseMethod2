@@ -51,7 +51,6 @@ public class QueueTransaksi {
         if (isEmpty()) {
             System.out.println("Tidak ada transaksi.");
         } else {
-            System.out.println("-- Riwayat Transaksi --");
             int i = front;
             while (true) {
                 data[i].tampilkanTransaksi();
